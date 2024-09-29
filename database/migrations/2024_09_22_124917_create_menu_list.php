@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('name', 50);  
             $table->string('parent', 50);
             $table->string('status', 50);  
-            $table->string('number_range');  
-            $table->string('level');
+            $table->integer('number_range');  
+            $table->integer('level');
             $table->timestamps();
         });
     }
